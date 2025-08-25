@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0px;
+    /* background-color: darkgray; */
+    background-image: url(https://cdn.pixabay.com/photo/2021/02/13/14/58/lamborghini-6011781_1280.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    background-color: aqua;
+    color: black;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 50px;
+    margin: 30px;
+}
+p{
+    height: 90%;
+    width: 90%;
+    color: rgb(255, 251, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(205, 191, 191, 0.1);
+    font-size: 50px;
+    border-width: 18px;
+    border-color: rgb(242, 255, 0);
+    border-style: groove;
+    margin: 50px;
+    padding: 20px;
+    /* border-radius: 20px; */
+    border-top-left-radius: 70px;
+    /* border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    border-bottom-right-radius: 70px;
+}
