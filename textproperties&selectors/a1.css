@@ -1,0 +1,30 @@
+h1{
+    /* text-transform: uppercase;
+    text-transform: lowercase; */
+    text-transform: capitalize;
+    text-decoration-line: overline;
+    text-decoration-color: blue;
+    text-decoration-style: dotted;
+    /* text-decoration-style: dashed;
+    text-decoration-style: solid; */
+}
+p{
+    text-indent: 100px;
+    letter-spacing: 5px;
+    line-height: 80px;
+    word-spacing: 30px;
+    text-shadow: 10px 10px 9px rgb(3, 3, 3);
+}
+.class-selector{
+    background-color: blue;
+}
+#id-selector{
+    background-color: aqua;
+}
+h4{
+    background-color: black;
+    color: azure;
+}
+*{ 
+    background-color: chartreuse; 
+} 
