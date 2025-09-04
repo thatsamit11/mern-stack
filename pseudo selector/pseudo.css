@@ -1,0 +1,97 @@
+a:link{
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
+    font-size: 20px;
+}
+
+/* color changes after visiting the link */
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: aqua;
+}
+a:active{
+    background-color: aqua;
+}
+
+input:focus{
+    background-color: black;
+}
+
+
+li:first-child{
+    background-color: blue;
+}
+li:nth-child(3){
+    background-color: brown;
+}
+li:nth-child(even){
+    background-color: chartreuse;
+}
+/* li:nth-child(odd){
+    background-color: chartreuse;
+} */
+ /* for every 2nd child
+ li:nth-child(2n){
+    background-color: chartreuse;
+} */
+  /* for every 3rd child
+ li:nth-child(2n+1){
+    background-color: chartreuse;
+} */
+  /* for every 1sd child
+ li:nth-child(2n-1){
+    background-color: chartreuse;
+} */
+ h1::first-letter{
+    color: darkorchid;
+ }
+ p::first-line{
+    color: aqua;
+ }
+ p::before{
+    content: "this is paragraph element";
+    background-color: chartreuse;
+    color: black;
+ }
+  p::after{
+    content: "this is paragraph element";
+    background-color: chartreuse;
+    color: black;
+ }
+ ::selection{
+    background-color: yellow;
+    color: blue;
+ }
+
+
+ /* box sizing */
+.heading{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 200px;
+    box-sizing: content-box;
+    border: 10px solid black;
+    padding: 10px;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed red;
+    border-left: 5px dotted blue;
+ }
+
+ .heading2{
+    background-color: aqua;
+    height: 100px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 10px solid black;
+    padding: 10px;
+ }
+ .h1{
+    height: 100px;
+    width: 200px;
+ }
+ .h2{
+    height: 100px;
+    width: 200px;
+ }
